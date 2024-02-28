@@ -1,0 +1,545 @@
+
+@media screen and (max-width: 1600px){
+    
+    #projekti{
+            height: 980px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        .prvi{
+            width: 1000px;
+            height: 578px;
+            border-radius: 0px 30px 18px 33px;
+            img{
+                width: 100%;
+            }
+        }
+
+        .drugi{
+            height: 332px;
+
+            img{
+                width: 520px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+    header{
+        gap: 10%;
+        nav{ 
+            ul{
+                li{
+                    margin-right: 55px;
+                }
+            }
+        }
+    } 
+
+    #Biografija{
+        h4{
+            font-size: 25px;
+        }
+    }
+    
+    #projekti{
+        height: 1700px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        img{
+            border-radius: 15px 30px 17px 30px;
+        }
+
+        .prvi{
+            width: 801px;
+            height: 476px;
+                img{
+                    width: 100%;
+                }
+        }
+
+        .drugi{
+            width: 801px;
+            height: 476px;
+                img{
+                    width: 100%;
+                }
+        }
+    }
+
+    #kontakt{
+        aside{
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 1303px){
+
+    #Umeća{
+        height: 750px;
+        flex-wrap: wrap;
+
+        .umeće{
+            width: 40%;
+        }
+    }
+
+    #kontakt{
+        flex-direction: column;
+        height: 800px;
+
+        .formalni{
+            width: 90%;
+        }
+
+        aside{
+            width: 60%;
+        }
+    }
+
+    footer{
+        p{
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px){
+
+    #Biografija{
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 900px;
+
+        h4{
+            font-size: 20px;
+            width: 80%;
+            text-align: center;
+        }
+
+        #ja{
+            margin-bottom: 60px;
+            margin-top: 25px;
+        }
+    }
+
+    footer{
+        height:275px;
+        flex-wrap: wrap;
+        ul{
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            flex-direction: row-reverse;
+        }
+        .nprava{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1025px){
+    footer{
+        ul{
+            li{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 980px){
+
+    header{
+        gap: 0%;
+        nav{
+            ul{
+                li{
+                    margin-right: 30px;
+                    a{
+                        font-size: 35px
+                    }
+            }
+        }}
+    }
+
+    #Biografija{
+        height: 1000px;
+
+        h4{
+            font-size: 25px;
+        }
+    }
+
+    #Umeća{
+        height: 1500px;
+        flex-wrap: wrap;
+            .umeće{
+                width: 80%;
+                font-size: 32px;
+            }
+    }
+
+    #projekti{
+        height: 1300px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        .prvi{
+            width: 575px;
+            height: 359px;
+        }
+
+        .drugi{
+            width: 575px;
+            height: 359px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    #Biografija{
+        height: 1111px;
+            #ja{
+                width: 365px;
+                height: 527px;
+                    img{
+                        height: 500px;
+                        border-radius: 20px 10px 30px 10px;
+                    }
+            }
+    }
+
+    #projekti{
+        .projekat{
+            p{
+                font-size:35px;
+                width:70%;
+            }
+        }
+        .prvi{
+            width: 575px;
+            height: 377px;
+        }
+
+        .drugi{
+            width: 575px;
+            height: 377px;
+        }
+    }
+
+    #Kontakt{
+        height: 1000px;
+            form{
+                height: 390px;
+                    input{
+                        height: 65px;
+                        font-size: 30px;
+                    }
+            }
+    }
+    footer{
+        h2{
+            font-size: 55px;
+        }
+        li{
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 735px){
+    header{
+        height: 100px;
+        img{
+            display: none;
+        }
+        nav{
+            width: 100%;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                li{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+
+    #Kontakt{
+        height: 850px;
+        aside{
+            font-size: 20px;
+        }
+    }
+
+    #Projekti{
+        .projekat{
+            p{
+            font-size:25px;
+            }
+        }
+        .prvi{
+            width: 460px;
+            height: 306px;
+        }
+
+        .drugi{
+            width: 460px;
+            height: 306px;
+        }
+    }
+    #Umeća{
+        .umeće{
+            font-size: 25px;
+        }
+    }
+
+    footer{
+        li{
+            font-size: 19;
+        }
+    }
+}
+
+@media screen and (max-width: 675px){
+    #Kontakt{
+        height: 777px;
+        aside{
+            font-size: 16px;
+        }
+    }
+    #Projekti{
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    #Projekti{
+        height: 1000px;
+        .projekat{
+            p{
+            font-size:25px;
+            }
+        }
+        .prvi{
+            width: 400px;
+            height: 275px;
+        }
+
+        .drugi{
+            width: 400px;
+            height: 275px;
+        }
+    }
+
+    #Kontakt{
+        form{
+                width:320px
+            }
+    }
+
+    footer{
+        height: 300px;
+        flex-direction: column-reverse;
+            p{
+                width:70%;
+            }
+
+            ul{
+                width: 70%;
+                li{
+                width: 25%;
+                 }
+             }
+        }
+}
+
+@media screen and (max-width: 530px){
+
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    #Kontakt{
+        form{
+            width:200px
+        }
+    }
+
+    #Projekti{
+        height: 900px;
+        .projekat{
+            p{
+            font-size:25px;
+            }
+        }
+        .prvi{
+            width: 340px;
+            height: 245px;
+        }
+
+        .drugi{
+            width: 340px;
+            height: 245px;
+        }
+    }
+    #Biografija{
+        height:900px;
+        h4{font-size: 20px;}
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    #Biografija{
+        #ja{
+            width: 280px;
+            height: 410px;
+                img{
+                    height: 375px;
+                }
+        }
+    }
+    #Umeća{
+        .umeće{
+            font-size: 20px;
+        }
+    }
+    #Projekti{
+        height: 800px;
+        .projekat{
+            p{
+            font-size:15px;
+            }
+        }
+        .prvi{
+            width: 275px;
+            height: 199px;
+        }
+
+        .drugi{
+            width: 275px;
+            height: 199px;
+        }
+    }
+    #Kontakt{
+        height: 777px;
+        aside{
+            font-size: 12px;
+        }
+    }
+
+    footer{
+        ul{
+            width: 100%;
+            li{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        p{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 410px){
+    #Kontakt{
+        height: 915px;
+        form{
+            width: 90px;
+                input{
+                    font-size: 25px;
+                }
+                textarea{
+                    font-size: 17px;
+                }
+        }
+    }
+
+    #Biografija{
+        height: 765px;
+        h4{
+            font-size: 17px;}
+        #ja{
+            width: 200px;
+            height: 291px;
+                img{
+                    height: 270px;
+                }
+        }
+    }
+
+    #Projekti{
+        height: 600px;
+        .projekat{
+            p{
+            font-size:14px;
+            }
+        }
+        .prvi{
+            width: 200px;
+            height: 160px;
+        }
+
+        .drugi{
+            width: 200px;
+            height: 160px;
+        }
+    }
+        #Kontakt{
+            height: 875px;
+            aside{
+                font-size: 8px;
+            }
+        }
+
+    #Umeća{
+        .umeće{
+            font-size: 15px;
+        }
+    }
+    footer{
+        height: 380px;
+            h2{
+                font-size: 27px;
+            }
+            ul{
+                li{
+                    a{
+                        font-size:13px;
+                    }
+                }
+            }
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
